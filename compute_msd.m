@@ -1,6 +1,6 @@
 
 function [MSD,T]  = compute_msd(y)
-	% Function for computing the MSD
+    % Function for computing the MSD of trap positions
     [r c] = size(y);
     % N = ceil(r*1)
     N=ceil(r*1);
